@@ -11,6 +11,7 @@
 		AAE6DA4C28CA9C1300E6FC20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE6DA4B28CA9C1300E6FC20 /* ContentView.swift */; };
 		AAE6DA4E28CA9C1400E6FC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE6DA4D28CA9C1400E6FC20 /* Assets.xcassets */; };
 		AAE6DA5128CA9C1400E6FC20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE6DA5028CA9C1400E6FC20 /* Preview Assets.xcassets */; };
+		AAE6DA5928CAA53D00E6FC20 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE6DA5828CAA53D00E6FC20 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AAE6DA4B28CA9C1300E6FC20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAE6DA4D28CA9C1400E6FC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE6DA5028CA9C1400E6FC20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAE6DA5828CAA53D00E6FC20 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		AAE6DA4828CA9C1300E6FC20 /* ReconocimientoHF */ = {
 			isa = PBXGroup;
 			children = (
+				AAE6DA5728CAA52800E6FC20 /* Login */,
 				AAE6DA4928CA9C1300E6FC20 /* ReconocimientoHFApp.swift */,
-				AAE6DA4B28CA9C1300E6FC20 /* ContentView.swift */,
 				AAE6DA4D28CA9C1400E6FC20 /* Assets.xcassets */,
 				AAE6DA4F28CA9C1400E6FC20 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				AAE6DA5028CA9C1400E6FC20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAE6DA5728CAA52800E6FC20 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6DA4B28CA9C1300E6FC20 /* ContentView.swift */,
+				AAE6DA5828CAA53D00E6FC20 /* ContentViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				AAE6DA4C28CA9C1300E6FC20 /* ContentView.swift in Sources */,
 				AAE6DA4A28CA9C1300E6FC20 /* ReconocimientoHFApp.swift in Sources */,
+				AAE6DA5928CAA53D00E6FC20 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +282,7 @@
 				DEVELOPMENT_TEAM = 9TPTHP2V2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Neceitas autenticarte por el sensor biometrico :)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_TEAM = 9TPTHP2V2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Neceitas autenticarte por el sensor biometrico :)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,10 +1,3 @@
-//
-//  ReconocimientoHFApp.swift
-//  ReconocimientoHF
-//
-//  Created by Erwin Luz León on 08/09/22.
-//
-
 import SwiftUI
 
 @main
